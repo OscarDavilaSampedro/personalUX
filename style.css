@@ -1,0 +1,87 @@
+/* Especificidad: 001 */
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Especificidad: 001 */
+header,
+footer {
+    background-color: #6A0DAD;
+    color: white;
+    padding: 1rem;
+}
+
+/* Especificidad: 001 */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Especificidad: 001 */
+main {
+    padding: 2rem;
+}
+
+/* Especificidad: 001 */
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Especificidad: 001 */
+h2 {
+    margin-bottom: 1rem;
+    color: #6A0DAD;
+    font-size: 2rem;
+}
+
+/* Especificidad: 001 */
+h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+    color: #6A0DAD;
+}
+
+/* Especificidad: 002 */
+nav ul,
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Especificidad: 002 */
+nav ul {
+    margin: 1rem 0 0;
+}
+
+/* Especificidad: 002 */
+ul li {
+    margin: 0.5rem 0;
+}
+
+/* Especificidad: 002 */
+section img {
+    border-radius: 50%;
+    float: left;
+}
+
+/* Especificidad: 003 */
+nav ul li {
+    margin: 0 1.5rem;
+    display: inline;
+}
+
+/* Especificidad: 004 */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Especificidad: 014 */
+nav ul li a:hover {
+    text-decoration: underline;
+}
